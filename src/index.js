@@ -63,7 +63,8 @@ board.on('ready', () => {
     thermometer.on('change', () => {
       console.log('update', thermometer.fahrenheit);
       socket.emit('update', {
-        temperature: thermometer.fahrenheit
+        temperature: thermometer.fahrenheit,
+        name: config.name
       });
     });
   });
