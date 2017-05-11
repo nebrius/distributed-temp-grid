@@ -5,11 +5,12 @@ A distributed temperature monitoring system
 # Installation and Configuration
 
 ```sh
-git clone
+git clone https://github.com/nebrius/temperature-grid
+cd temperature-grid
 npm install
 sudo mkdir /etc/temperature-grid
 sudo cp conf.example.json /etc/temperature-grid/conf.json
-nano /etc/
+sudo nano /etc/temperature-grid/conf.json
 ```
 
 # License
