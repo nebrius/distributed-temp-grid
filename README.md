@@ -2,6 +2,16 @@
 
 A distributed temperature monitoring system
 
+# Installation and Configuration
+
+```sh
+git clone
+npm install
+sudo mkdir /etc/temperature-grid
+sudo cp conf.example.json /etc/temperature-grid/conf.json
+nano /etc/
+```
+
 # License
 
 MIT License
